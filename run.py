@@ -307,7 +307,7 @@ def ___proxy___():
         ___roz = requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
         open('Data/proxy.txt', 'w').write(___roz)
     except Exception as e:
-        ___roz = requests.get('https://raw.githubusercontent.com/RozhakXD/Premium/main/Data/proxy2.txt').text
+        ___roz = requests.get('https://raw.githubusercontent.com/Biloboy1/Rush/main/Data/proxy2.txt').text
         open('Data/proxy.txt', 'w').write(___roz)
     ___crack___()
 # Crack
